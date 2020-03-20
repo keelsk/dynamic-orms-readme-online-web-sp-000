@@ -12,5 +12,4 @@ song.save
 
 
 
-DB[:conn].execute("SELECT * FROM songs")
-DB[:conn].execute(".schema")
+puts DB[:conn].execute("SELECT * FROM songs")
