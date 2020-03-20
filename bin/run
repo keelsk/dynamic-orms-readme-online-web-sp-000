@@ -12,4 +12,4 @@ song.save
 
 
 
-puts DB[:conn].execute("SELECT name FROM songs")
+DB[:conn].execute("SELECT * FROM songs")
